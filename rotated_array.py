@@ -26,6 +26,8 @@ def main():
     # A base case to see if the two lists are equal in size. If not, we know they
     # cannot be rotated arrays of each other.
     if len(list_one) == len(list_two):
+        
+        # convert lists to map for deeper comparison.
         list_one_map = copy_list_to_map(list_one)
         list_two_map = copy_list_to_map(list_two)
 
